@@ -174,8 +174,15 @@ a:hover {
 }
 /* /old man */
 
-
-
+/* last */
+.carpisa img {
+  height: 20px;
+  width: auto;
+}
+.titolo_carpisa {
+  font-size: 40px;
+  font-weight: bold;
+}
 
 
 /* media queries */
