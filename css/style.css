@@ -6,6 +6,10 @@ a {
   color: black;
 }
 
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+}
 /* mix */
 a:hover {
   text-decoration: none;
@@ -22,6 +26,7 @@ a:hover {
   line-height: normal;
 }
 .menu-mobile {
+  font-size: 18px;
   background-color: transparent;
 }
 /* header */
@@ -58,3 +63,4 @@ a:hover {
   border-right: 1px solid gray;
   color: black;
 }
+/* hero */
