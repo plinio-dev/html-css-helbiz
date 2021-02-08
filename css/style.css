@@ -22,6 +22,10 @@ a:hover {
 .bg_grey {
   background-color: #fafafa;
 }
+.container__small {
+  max-width: 800px;
+  margin: auto;
+}
 /* bottoni */
 .bottone-login {
   background-color: black;
@@ -123,8 +127,52 @@ a:hover {
 .product_link {
   display: block;
 }
-
-
+/* old man */
+.box {
+  display: inline-block;
+  width: calc(100% / 3);
+  position: relative;
+}
+.box-1 {
+  vertical-align: bottom;
+  right: calc(100% / 3);
+}
+.box-1 h2 {
+  padding-bottom: 100px;
+  font-weight: bold;
+}
+.box-3 h2 {
+    font-weight: bold;
+}
+.box-2 {
+  left: calc(100% / 3);
+}
+.box-2 img {
+  width: 100%;
+  max-width: 300px;
+}
+.box-3 {
+  vertical-align: bottom;
+}
+.box-3 h2, .box-3 p {
+  padding-left: 25px;
+}
+.box-3 p {
+  padding-bottom: 93px;
+  font-size: 18px;
+}
+.banner {
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  position: absolute;
+  width: 100%;
+}
+.boxes {
+  padding-top: 200px;
+}
+/* /old man */
 
 
 
@@ -145,5 +193,14 @@ a:hover {
     position: fixed;
     top: 0;
     left: 0;
+  }
+  .box {
+    width: 100%;
+  }
+  .box-1 {
+    right: auto;
+  }
+  .box-2 {
+    left: auto;
   }
 }
