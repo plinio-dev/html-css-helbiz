@@ -1,5 +1,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
 }
 
 a {
@@ -13,6 +14,9 @@ h1 {
 /* mix */
 a:hover {
   text-decoration: none;
+}
+.bg_grey {
+  background-color: #fafafa;
 }
 /* bottoni */
 .bottone-login {
@@ -90,4 +94,34 @@ a:hover {
     top: 0;
     left: 0;
   }
+}
+/* corpo */
+/* sezioni prodotti */
+.product_logo {
+  height: 22px;
+  margin-bottom: 25px;
+}
+.product p {
+  margin-bottom: 25px;
+}
+.product a {
+  margin-bottom: 25px;
+  color: #0370c8;
+}
+.product a i, .product a {
+  vertical-align: middle;
+}
+.product a i {
+  margin-left: 5px;
+}
+.product {
+  padding-bottom: 30px;
+  padding-top: 65px;
+}
+.product .product_img {
+  max-height: 320px;
+  width: 100%;
+}
+.product_img {
+  margin-top: 20px;
 }
