@@ -1,3 +1,60 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+
+a {
+  color: black;
+}
+
+/* mix */
+a:hover {
+  text-decoration: none;
+}
+/* bottoni */
+.bottone-login {
+  background-color: black;
+  color: #ffff;
+  border-radius: 0;
+  padding: 5px 20px;
+}
+
+.lang {
+  line-height: normal;
+}
+.menu-mobile {
+  background-color: transparent;
+}
+/* header */
+.header_top {
+  line-height: 70px;
+  background-color: white;
+  height: 70px;
+}
+.main-nav, .secondary-nav {
+  line-height: 70px;
+  display: inline-block;
+}
+.main-nav {
+  margin-right: 30px;
+}
+.list-inline {
+  margin-bottom: 0px;
+}
+
+.logo img{
+  height: 16px;
+}
+
+.main-nav li {
+  text-transform: uppercase;
+  margin-right: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.list-inline button {
+  border: none;
+  background-color: transparent;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  color: black;
+}
